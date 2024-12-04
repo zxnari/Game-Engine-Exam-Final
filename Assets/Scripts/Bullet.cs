@@ -7,10 +7,10 @@ public class Bullet : MonoBehaviour
     private void Update()
     {
         transform.position += (Vector3)(Velocity * Time.deltaTime);
-        if (transform.position.y > 10f)
+        /*if (transform.position.y > 20f)
         {
             BulletPool.Instance.ReturnBullet(gameObject);
-        }
+        }*/
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
