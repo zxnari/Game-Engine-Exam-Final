@@ -23,9 +23,11 @@ This moves the target side-to-side on the X-Axis using Update(), and stores an O
 
 Attempted Implementations:
 - ShootSwitch (Command)
+
 This was to use a command pattern to switch the firing from vertical to horizontal, by changing the vector created in PlayerShooting once the target was destroyed. This would've been called from a ShootSwitchCommand class, which had its Execute() function called from the Target class, modifying it in PlayerShooting to change the vector.
 
 - Target Spawn/Pooling (Object Pooling)
+
 This was to initialize and spawn a pool of targets in the scene, allowing for ease if desiring to create multiple targets. This is very similar to my BulletPool implementation. However, my implementation affected the bullet velocities, so was commented out.
 
 
