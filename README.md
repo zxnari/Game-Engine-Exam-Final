@@ -11,7 +11,7 @@ Implementations:
 
 - AudioManager (Singleton)
 
-Inherits from the Singleton class, and in the PlaySFX() method, it checks if there is an Audio Source, returns null if not, otherwise plays the audio. This simply helps with debugging should there be any issues with sounds being played, and can be called from anywhere. In this scenario, it is used during bullet firing (SFX is of my own creation).
+Inherits from the Singleton class, and in the PlaySFX() method, it checks if there is an Audio Source, returns null if not, otherwise plays the audio. This simply helps with debugging should there be any issues with sounds being played, and can be called from anywhere. In this scenario, it is used during bullet firing (SFX is of my own creation - created it prior using Audacity).
 
 - Bullet Functionality (Singleton/Object Pooling)
 
