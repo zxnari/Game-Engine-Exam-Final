@@ -13,7 +13,7 @@ public class PlayerShooting : MonoBehaviour
         }
     }
 
-    void SpawnBullet(Vector2 velocity)
+   public void SpawnBullet(Vector2 velocity)
     {
         GameObject bulletObject = BulletPool.Instance.GetBullet();
         bulletObject.transform.position = spawnPoint.position;

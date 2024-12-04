@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
         {
             BulletPool.Instance.ReturnBullet(this.gameObject);
             Destroy (collision.gameObject);
-            Debug.Log("You Win!");
+            Debug.Log("All Targets Down!");
         }
     }
 }
